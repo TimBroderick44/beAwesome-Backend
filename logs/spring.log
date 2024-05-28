@@ -1,0 +1,122 @@
+2024-05-28T15:56:49.725+09:00  INFO 23876 --- [todo_app] [restartedMain] io.nology.todo_app.TodoAppApplication    : Starting TodoAppApplication using Java 22.0.1 with PID 23876 (C:\Users\Judas Jefferson\Desktop\Coding\FullStack\Development_Local\todoApp\Final\todo_app\target\classes started by Judas Jefferson in C:\Users\Judas Jefferson\Desktop\Coding\FullStack\Development_Local\todoApp\Final\todo_app)
+2024-05-28T15:56:49.736+09:00  INFO 23876 --- [todo_app] [restartedMain] io.nology.todo_app.TodoAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-05-28T15:56:49.780+09:00  INFO 23876 --- [todo_app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-28T15:56:49.781+09:00  INFO 23876 --- [todo_app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-28T15:56:50.506+09:00  INFO 23876 --- [todo_app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-28T15:56:50.556+09:00  INFO 23876 --- [todo_app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2024-05-28T15:56:51.098+09:00  INFO 23876 --- [todo_app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-28T15:56:51.111+09:00  INFO 23876 --- [todo_app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-28T15:56:51.112+09:00  INFO 23876 --- [todo_app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-28T15:56:51.167+09:00  INFO 23876 --- [todo_app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-28T15:56:51.168+09:00  INFO 23876 --- [todo_app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1385 ms
+2024-05-28T15:56:51.300+09:00  INFO 23876 --- [todo_app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-28T15:56:51.367+09:00  INFO 23876 --- [todo_app] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-28T15:56:51.408+09:00  INFO 23876 --- [todo_app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-28T15:56:51.633+09:00  INFO 23876 --- [todo_app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-28T15:56:51.661+09:00  INFO 23876 --- [todo_app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-28T15:56:51.935+09:00  INFO 23876 --- [todo_app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41983eae
+2024-05-28T15:56:51.937+09:00  INFO 23876 --- [todo_app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-28T15:56:52.781+09:00  INFO 23876 --- [todo_app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-28T15:56:52.820+09:00  INFO 23876 --- [todo_app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-28T15:56:53.059+09:00  INFO 23876 --- [todo_app] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-28T15:56:53.518+09:00  WARN 23876 --- [todo_app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-28T15:56:53.844+09:00  INFO 23876 --- [todo_app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-28T15:56:53.874+09:00  INFO 23876 --- [todo_app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-28T15:56:53.883+09:00  INFO 23876 --- [todo_app] [restartedMain] io.nology.todo_app.TodoAppApplication    : Started TodoAppApplication in 4.538 seconds (process running for 4.951)
+2024-05-28T15:57:14.102+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-28T15:57:14.103+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-28T15:57:14.104+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-28T15:57:14.133+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.config.LoggingInterceptor   : Incoming request: GET /todos
+2024-05-28T15:57:14.242+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.t.todopost.TodoPostController        : GET /todos - Fetched all posts
+2024-05-28T15:57:14.298+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.config.LoggingInterceptor   : Completed request: GET /todos with status 200
+2024-05-28T15:57:14.299+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.todo_app.config.LoggingInterceptor   : Incoming request: GET /todos
+2024-05-28T15:57:14.301+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.config.LoggingInterceptor   : Incoming request: GET /todos
+2024-05-28T15:57:14.306+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.t.todopost.TodoPostController        : GET /todos - Fetched all posts
+2024-05-28T15:57:14.306+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.t.todopost.TodoPostController        : GET /todos - Fetched all posts
+2024-05-28T15:57:14.307+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.todo_app.config.LoggingInterceptor   : Completed request: GET /todos with status 200
+2024-05-28T15:57:14.308+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.config.LoggingInterceptor   : Completed request: GET /todos with status 200
+2024-05-28T15:57:14.310+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.todo_app.config.LoggingInterceptor   : Incoming request: GET /todos
+2024-05-28T15:57:14.314+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.t.todopost.TodoPostController        : GET /todos - Fetched all posts
+2024-05-28T15:57:14.316+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.todo_app.config.LoggingInterceptor   : Completed request: GET /todos with status 200
+2024-05-28T15:57:48.564+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-6] i.n.todo_app.config.LoggingInterceptor   : Incoming request: OPTIONS /todos/18
+2024-05-28T15:57:48.565+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-6] i.n.todo_app.config.LoggingInterceptor   : Completed request: OPTIONS /todos/18 with status 200
+2024-05-28T15:57:48.569+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/18
+2024-05-28T15:57:48.615+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 18
+2024-05-28T15:57:48.642+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.t.todopost.TodoPostController        : PATCH /todos/18 - Updated post
+2024-05-28T15:57:48.644+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/18 with status 200
+2024-05-28T15:59:01.184+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-9] i.n.todo_app.config.LoggingInterceptor   : Incoming request: OPTIONS /todos/3
+2024-05-28T15:59:01.185+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-9] i.n.todo_app.config.LoggingInterceptor   : Completed request: OPTIONS /todos/3 with status 200
+2024-05-28T15:59:01.188+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-10] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/3
+2024-05-28T15:59:01.193+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-10] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 3
+2024-05-28T15:59:01.198+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-10] i.n.t.todopost.TodoPostController        : PATCH /todos/3 - Updated post
+2024-05-28T15:59:01.200+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-10] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/3 with status 200
+2024-05-28T15:59:14.446+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/3
+2024-05-28T15:59:14.451+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 3
+2024-05-28T15:59:14.457+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.t.todopost.TodoPostController        : PATCH /todos/3 - Updated post
+2024-05-28T15:59:14.459+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/3 with status 200
+2024-05-28T15:59:19.830+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/3
+2024-05-28T15:59:19.835+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 3
+2024-05-28T15:59:19.840+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.t.todopost.TodoPostController        : PATCH /todos/3 - Updated post
+2024-05-28T15:59:19.842+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/3 with status 200
+2024-05-28T15:59:29.795+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/3
+2024-05-28T15:59:29.799+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 3
+2024-05-28T15:59:29.805+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.t.todopost.TodoPostController        : PATCH /todos/3 - Updated post
+2024-05-28T15:59:29.806+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/3 with status 200
+2024-05-28T16:01:44.907+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-6] i.n.todo_app.config.LoggingInterceptor   : Incoming request: GET /todos
+2024-05-28T16:01:44.914+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-6] i.n.t.todopost.TodoPostController        : GET /todos - Fetched all posts
+2024-05-28T16:01:44.915+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-6] i.n.todo_app.config.LoggingInterceptor   : Completed request: GET /todos with status 200
+2024-05-28T16:01:44.918+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.todo_app.config.LoggingInterceptor   : Incoming request: GET /todos
+2024-05-28T16:01:44.919+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-8] i.n.todo_app.config.LoggingInterceptor   : Incoming request: GET /todos
+2024-05-28T16:01:44.924+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.t.todopost.TodoPostController        : GET /todos - Fetched all posts
+2024-05-28T16:01:44.924+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-8] i.n.t.todopost.TodoPostController        : GET /todos - Fetched all posts
+2024-05-28T16:01:44.925+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.todo_app.config.LoggingInterceptor   : Completed request: GET /todos with status 200
+2024-05-28T16:01:44.925+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-8] i.n.todo_app.config.LoggingInterceptor   : Completed request: GET /todos with status 200
+2024-05-28T16:01:44.928+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-7] i.n.todo_app.config.LoggingInterceptor   : Incoming request: GET /todos
+2024-05-28T16:01:44.932+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-7] i.n.t.todopost.TodoPostController        : GET /todos - Fetched all posts
+2024-05-28T16:01:44.933+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-7] i.n.todo_app.config.LoggingInterceptor   : Completed request: GET /todos with status 200
+2024-05-28T16:03:00.964+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/18
+2024-05-28T16:03:00.971+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 18
+2024-05-28T16:03:00.976+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.t.todopost.TodoPostController        : PATCH /todos/18 - Updated post
+2024-05-28T16:03:00.978+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/18 with status 200
+2024-05-28T16:03:37.651+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.todo_app.config.LoggingInterceptor   : Incoming request: OPTIONS /todos/6
+2024-05-28T16:03:37.652+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.todo_app.config.LoggingInterceptor   : Completed request: OPTIONS /todos/6 with status 200
+2024-05-28T16:03:37.654+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/6
+2024-05-28T16:03:37.658+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 6
+2024-05-28T16:03:37.663+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.t.todopost.TodoPostController        : PATCH /todos/6 - Updated post
+2024-05-28T16:03:37.665+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/6 with status 200
+2024-05-28T16:03:38.989+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/6
+2024-05-28T16:03:38.993+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 6
+2024-05-28T16:03:38.999+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.t.todopost.TodoPostController        : PATCH /todos/6 - Updated post
+2024-05-28T16:03:39.000+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/6 with status 200
+2024-05-28T16:03:48.355+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-6] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/18
+2024-05-28T16:03:48.360+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-6] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 18
+2024-05-28T16:03:48.364+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-6] i.n.t.todopost.TodoPostController        : PATCH /todos/18 - Updated post
+2024-05-28T16:03:48.366+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-6] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/18 with status 200
+2024-05-28T16:03:55.718+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/18
+2024-05-28T16:03:55.723+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 18
+2024-05-28T16:03:55.727+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.t.todopost.TodoPostController        : PATCH /todos/18 - Updated post
+2024-05-28T16:03:55.729+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-5] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/18 with status 200
+2024-05-28T16:04:11.153+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-8] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/6
+2024-05-28T16:04:11.157+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-8] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 6
+2024-05-28T16:04:11.163+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-8] i.n.t.todopost.TodoPostController        : PATCH /todos/6 - Updated post
+2024-05-28T16:04:11.164+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-8] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/6 with status 200
+2024-05-28T16:04:12.577+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-7] i.n.todo_app.config.LoggingInterceptor   : Incoming request: PATCH /todos/3
+2024-05-28T16:04:12.581+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-7] i.n.todo_app.todopost.TodoPostService    : Updated TodoPost with id: 3
+2024-05-28T16:04:12.587+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-7] i.n.t.todopost.TodoPostController        : PATCH /todos/3 - Updated post
+2024-05-28T16:04:12.588+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-7] i.n.todo_app.config.LoggingInterceptor   : Completed request: PATCH /todos/3 with status 200
+2024-05-28T16:06:34.036+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-10] i.n.todo_app.config.LoggingInterceptor   : Incoming request: OPTIONS /todos
+2024-05-28T16:06:34.037+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-10] i.n.todo_app.config.LoggingInterceptor   : Completed request: OPTIONS /todos with status 200
+2024-05-28T16:06:34.040+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.config.LoggingInterceptor   : Incoming request: POST /todos
+2024-05-28T16:06:34.082+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.todopost.TodoPostService    : Created new TodoPost with id: 22
+2024-05-28T16:06:34.085+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.t.todopost.TodoPostController        : POST /todos - Created new post with id: 22
+2024-05-28T16:06:34.088+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-1] i.n.todo_app.config.LoggingInterceptor   : Completed request: POST /todos with status 201
+2024-05-28T16:06:39.856+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.todo_app.config.LoggingInterceptor   : Incoming request: OPTIONS /todos/22
+2024-05-28T16:06:39.857+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-2] i.n.todo_app.config.LoggingInterceptor   : Completed request: OPTIONS /todos/22 with status 200
+2024-05-28T16:06:39.859+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.config.LoggingInterceptor   : Incoming request: DELETE /todos/22
+2024-05-28T16:06:39.867+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.todopost.TodoPostService    : Deleted TodoPost with id: 22
+2024-05-28T16:06:39.874+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.t.todopost.TodoPostController        : DELETE /todos/22 - Deleted post
+2024-05-28T16:06:39.875+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-3] i.n.todo_app.config.LoggingInterceptor   : Completed request: DELETE /todos/22 with status 204
+2024-05-28T16:07:16.874+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.todo_app.config.LoggingInterceptor   : Incoming request: POST /todos
+2024-05-28T16:07:16.881+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.todo_app.todopost.TodoPostService    : Created new TodoPost with id: 23
+2024-05-28T16:07:16.884+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.t.todopost.TodoPostController        : POST /todos - Created new post with id: 23
+2024-05-28T16:07:16.885+09:00  INFO 23876 --- [todo_app] [http-nio-8080-exec-4] i.n.todo_app.config.LoggingInterceptor   : Completed request: POST /todos with status 201
