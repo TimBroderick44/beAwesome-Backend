@@ -43,8 +43,8 @@ public class TodoPostController {
     @Tag(name = "get", description =  "GET methods of Todo App API")
     @Operation (summary = "Get all posts", description = "Get all posts in the todo app")
     @GetMapping()
-    public ResponseEntity<List<TodoPost>> findAllPosts(@RequestParam Optional<Boolean> completed) {
-        List<TodoPost> allPosts = this.TodoPostService.findAllPosts(completed);
+    public ResponseEntity<List<TodoPost>> findAllPosts() {
+        List<TodoPost> allPosts = this.TodoPostService.findAllPosts();
         logger.info("GET /todos - Fetched all posts");
         return new ResponseEntity<>(allPosts, HttpStatus.OK);
     }

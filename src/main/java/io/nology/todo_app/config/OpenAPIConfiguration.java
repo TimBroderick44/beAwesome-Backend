@@ -24,7 +24,7 @@ public class OpenAPIConfiguration {
        myContact.setEmail("timbroderick44@gmail.com");
 
        Info information = new Info()
-               .title("Todo App API")
+               .title("Todo: Be Awesome (App API)")
                .version("1.0")
                .description("This API exposes endpoints for a todo app.")
                .contact(myContact);

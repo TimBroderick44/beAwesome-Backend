@@ -33,12 +33,9 @@ public class TodoPostService {
         return savedPost;
     }
 
-    public List<TodoPost> findAllPosts(Optional<Boolean> completed) {
-        if (completed.isPresent()) {
-            return todoPostRepository.findByCompletedOrderByPosition(completed.get());
-        } else {
-            return todoPostRepository.findAll(Sort.by(Sort.Direction.ASC, "position"));
-        }
+    public List<TodoPost> findAllPosts() {
+        // Return all posts ordered by position
+        return todoPostRepository.findAll(Sort.by(Sort.Direction.ASC, "position"));
     }
 
     public Optional<TodoPost> findById(Long id) {
