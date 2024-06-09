@@ -39,7 +39,7 @@ CREATE DATABASE your_database_name;
 - In the src/main/resources directory, create 'application.properties' and add the following:
 
 ```java
-spring.application.name=tickit-backend
+spring.application.name=beAwesome-backend
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/your_database_name
 spring.datasource.username=your_username
 spring.datasource.password=your_password
